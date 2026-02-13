@@ -1,0 +1,2 @@
+nodes,edges,density,diameter,radius,avg_degree,degree_variance,freeman_centralization,max_degree,largest_WCC,largest_SCC,clustering_coefficient
+3783,24186,0.0016904649973936393,10,5,12.786677240285488,1186.1873773547213,0.23153788369048897,888,3775,3235,0.0780073665603234
