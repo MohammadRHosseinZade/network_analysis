@@ -55,34 +55,43 @@ The network visualization shows the largest weakly connected component with:
 ### Top 3 Nodes by Each Centrality Metric
 
 #### Degree Centrality
- node   degree
-    1 0.234796
-    3 0.130619
-    4 0.109995
+| node | degree   |
+| ---- | -------- |
+| 1    | 0.234796 |
+| 3    | 0.130619 |
+| 4    | 0.109995 |
+
 
 #### Closeness Centrality
- node  closeness
-    2   0.367572
-   11   0.366040
-    1   0.359532
+| node | closeness |
+| ---- | --------- |
+| 2    | 0.367572  |
+| 11   | 0.366040  |
+| 1    | 0.359532  |
+
 
 #### Betweenness Centrality
- node  betweenness
-    1     0.145463
-    3     0.072742
-    2     0.061306
+| node | betweenness |
+| ---- | ----------- |
+| 1    | 0.145463    |
+| 3    | 0.072742    |
+| 2    | 0.061306    |
+
 
 #### Eigenvector Centrality
- node  eigenvector
-   11     0.196743
-    3     0.177927
-    2     0.168706
+| node | eigenvector |
+| ---- | ----------- |
+| 11   | 0.196743    |
+| 3    | 0.177927    |
+| 2    | 0.168706    |
 
 #### PageRank
- node  pagerank
-    1  0.234796
-    3  0.130619
-    4  0.109995
+| node | pagerank |
+| ---- | -------- |
+| 1    | 0.234796 |
+| 3    | 0.130619 |
+| 4    | 0.109995 |
+
 
 ---
 
@@ -117,20 +126,23 @@ The top nodes across different centrality metrics reveal important actors in the
 ## 7. Correlation Analysis
 
 ### Pearson Correlation Matrix
-               degree  closeness  betweenness  eigenvector  pagerank
-degree       1.000000   0.446344     0.873608     0.895197  1.000000
-closeness    0.446344   1.000000     0.276809     0.563078  0.446344
-betweenness  0.873608   0.276809     1.000000     0.669963  0.873608
-eigenvector  0.895197   0.563078     0.669963     1.000000  0.895197
-pagerank     1.000000   0.446344     0.873608     0.895197  1.000000
+|             | degree   | closeness | betweenness | eigenvector | pagerank |
+| ----------- | -------- | --------- | ----------- | ----------- | -------- |
+| degree      | 1.000000 | 0.446344  | 0.873608    | 0.895197    | 1.000000 |
+| closeness   | 0.446344 | 1.000000  | 0.276809    | 0.563078    | 0.446344 |
+| betweenness | 0.873608 | 0.276809  | 1.000000    | 0.669963    | 0.873608 |
+| eigenvector | 0.895197 | 0.563078  | 0.669963    | 1.000000    | 0.895197 |
+| pagerank    | 1.000000 | 0.446344  | 0.873608    | 0.895197    | 1.000000 |
 
 ### Spearman Correlation Matrix
-               degree  closeness  betweenness  eigenvector  pagerank
-degree       1.000000   0.669226     0.882939     0.684017  1.000000
-closeness    0.669226   1.000000     0.614438     0.976519  0.669226
-betweenness  0.882939   0.614438     1.000000     0.604117  0.882939
-eigenvector  0.684017   0.976519     0.604117     1.000000  0.684017
-pagerank     1.000000   0.669226     0.882939     0.684017  1.000000
+|             | degree   | closeness | betweenness | eigenvector | pagerank |
+| ----------- | -------- | --------- | ----------- | ----------- | -------- |
+| degree      | 1.000000 | 0.669226  | 0.882939    | 0.684017    | 1.000000 |
+| closeness   | 0.669226 | 1.000000  | 0.614438    | 0.976519    | 0.669226 |
+| betweenness | 0.882939 | 0.614438  | 1.000000    | 0.604117    | 0.882939 |
+| eigenvector | 0.684017 | 0.976519  | 0.604117    | 1.000000    | 0.684017 |
+| pagerank    | 1.000000 | 0.669226  | 0.882939    | 0.684017    | 1.000000 |
+
 
 ![Correlation Heatmap](centrality_correlation_heatmap.png)
 
